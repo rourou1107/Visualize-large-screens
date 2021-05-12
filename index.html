@@ -8,7 +8,7 @@
   <script>
     const clientWidth = document.documentElement.clientWidth
     const clientHeight = document.documentElement.clientHeight
-    // 页面宽度 = 1. 若宽度很大 公式：设备高度 / （16/9） 2. 若高度很大 公式：设备宽度
+    // 页面宽度 = 1. 若宽度很大 公式：设备高度 * （16/9） 2. 若高度很大 公式：设备宽度
     // 页面高度 = 设备宽度 / (16/9)
     // 1rem = 页面宽度 / 100
     let pageWidth = clientWidth / clientHeight >= 16 / 9 ? clientHeight * 16 / 9 : clientWidth
