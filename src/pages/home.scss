@@ -17,25 +17,22 @@
     grid-template-columns: 366fr 361fr 811fr 747fr;
     // 网格布局行高 --3行
     grid-template-rows: 755fr 363fr;
+    grid-column-gap: px(28);
+    grid-row-gap: px(28);
     .section1 {
       grid-area: box1;
-      background: pink;
     }
     .section2 {
       grid-area: box2;
-      background: #f8ffba;
     }
     .section3 {
       grid-area: box3;
-      background: #dde9ff;
     }
     .section4 {
       grid-area: box4;
-      background: #8bd8ff;
     }
     .section5 {
       grid-area: box5;
-      background: #5880ff;
     }
   }
 }
