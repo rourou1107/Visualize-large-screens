@@ -3,7 +3,7 @@ import './home.scss';
 
 export const Home = () => {
   return (
-    <div className='wrapper'>
+    <div className='home'>
       <header />
       <main>
           <section className="section1" />
