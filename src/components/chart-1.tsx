@@ -1,13 +1,19 @@
 import React, {useEffect, useRef} from 'react';
 import * as echarts from 'echarts';
-import {px} from '../shared/px';
 import {createEchartsOptions} from '../shared/create-echarts-options';
+import {px} from '../shared/px';
 
 export const Chart1 = () => {
     const divRef = useRef(null)
     useEffect(() => {
         const myChart = echarts.init(divRef.current);
         const option = {
+            grid: {
+                left: px(40),
+                top: px(40),
+                right: px(40),
+                bottom: px(40)
+            },
             xAxis: {
                 type: 'category',
                 data: ['兰州新区', '兰州新区', '兰州新区', '兰州新区', '兰州新区', '兰州新区', '兰州新区', '兰州新区', '兰州新区'],
