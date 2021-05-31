@@ -11,8 +11,9 @@
     // 页面宽度 = 1. 若宽度很大 公式：设备高度 * （16/9） 2. 若高度很大 公式：设备宽度
     // 页面高度 = 设备宽度 / (16/9)
     // 1rem = 页面宽度 / 100
-    let pageWidth = clientWidth / clientHeight >= 16 / 9 ? clientHeight * 16 / 9 : clientWidth
-    let pageHeight = pageWidth / (16 / 9)
+    window.pageWidth = clientWidth / clientHeight >= 16 / 9 ? clientHeight * 16 / 9 : clientWidth
+    const pageHeight = pageWidth / (16 / 9)
+    // html 的字体大小为页面宽度的 1%，那么其子元素 font-size: 2rem，即为页面宽度的 2%
     const string = `
       <style>
         html {
