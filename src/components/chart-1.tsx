@@ -19,7 +19,7 @@ export const Chart1 = () => {
         },
         xAxis: {
             type: 'category',
-            data: ['兰州新区', '兰州新区', '兰州新区', '兰州新区', '兰州新区', '兰州新区', '兰州新区'],
+            data: ['兰州新区', '兰州新区', '兰州新区', '兰州新区', '兰州新区', '兰州新区', '兰州新区', '兰州新区', '兰州新区'],
             axisLabel: {
                 fontSize: px(12),
                 formatter(val) {
@@ -52,7 +52,7 @@ export const Chart1 = () => {
             splitLine: {show: false} // 不显示坐标轴分割线
         },
         series: [{
-            data: [20, 79, 39, 48, 21, 10, 58],
+            data: [20, 79, 39, 48, 21, 10, 58, 56, 23],
             type: 'bar'
         }]
     };
