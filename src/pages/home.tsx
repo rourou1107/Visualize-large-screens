@@ -18,6 +18,9 @@ export const Home = () => {
               <section className="section4 bordered" />
               <section className="section5 bordered" />
           </main>
+         <footer>
+            大屏数据平台利用大数据技术采集犯罪作案信息Copyright&copy;rourou
+         </footer>
         </div>
     );
 };

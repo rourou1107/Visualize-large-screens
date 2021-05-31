@@ -6,11 +6,24 @@
   color: #ffffff;
   font-size: px(16);
   header {
+    width: px(2420);
+    margin: 0 auto;
     height: px(99);
     background-image: url('../images/header.png');
     background-size: cover;
   }
+  footer {
+    height: px(68);
+    margin: px(20) 0 1px;
+    border: 1px solid #0d2d59;
+    border-radius: 4px;
+    background: #0c0d2b;
+    text-align: center;
+    line-height: px(68);
+  }
   main {
+    width: px(2420);
+    margin: 0 auto;
     padding-top: px(30);
     flex: 1;
     display: grid;
