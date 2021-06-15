@@ -17,7 +17,7 @@ export const Chart3 = () => {
             xAxis: {
                 type: 'category',
                 boundaryGap: false,
-                data: ['2011', '2012', '2013', '2014', '2015', '2016', '2017'],
+                data: ['2011', '2012', '2013', '2014', '2015', '2016', '2017年'],
                 axisLine: {
                     show: true,
                     lineStyle: {
